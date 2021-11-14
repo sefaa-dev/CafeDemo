@@ -17,5 +17,21 @@ namespace CafeDemo
             InitializeComponent();
         }
 
+        private void btnAyarlar_Click(object sender, EventArgs e)
+        {
+            tablelayout urunlereGec = new tablelayout();
+            urunlereGec.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRaporlar_Click(object sender, EventArgs e)
+        {
+            Fis fis = new Fis();
+            fis.ShowDialog();
+        }
     }
 }

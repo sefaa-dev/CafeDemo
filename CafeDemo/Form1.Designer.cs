@@ -54,6 +54,7 @@ namespace CafeDemo
             this.btnAyarlar.TabIndex = 1;
             this.btnAyarlar.Text = "AYARLAR";
             this.btnAyarlar.UseVisualStyleBackColor = true;
+            this.btnAyarlar.Click += new System.EventHandler(this.btnAyarlar_Click);
             // 
             // btnRaporlar
             // 
@@ -63,6 +64,7 @@ namespace CafeDemo
             this.btnRaporlar.TabIndex = 2;
             this.btnRaporlar.Text = "RAPORLAR";
             this.btnRaporlar.UseVisualStyleBackColor = true;
+            this.btnRaporlar.Click += new System.EventHandler(this.btnRaporlar_Click);
             // 
             // btnCikis
             // 
@@ -95,6 +97,7 @@ namespace CafeDemo
             this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
